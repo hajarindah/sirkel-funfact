@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.asus.funfact.activities.FunfactActivity"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:background="#39add1"
+    android:id="@+id/activity_funfact"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/en_label_funfact_activity"
+            android:layout_weight="2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="#99ffffff"
+            android:textSize="10pt"
+            android:id="@+id/label_top"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="2"
+            android:text="@string/en_toggle_en"
+            android:textColor="#39add1"
+            android:id="@+id/toggle_lang"
+            android:background="#ffffff"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/fact_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/en_default_funfact"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="#ffffff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/show_list">
+        <Button
+            android:id="@+id/button_funfact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/en_button_funfact"
+            android:textColor="#39add1"
+            android:textAllCaps="false"
+            android:elevation="0dp"
+            android:background="#ffffff"
+            android:textSize="7pt"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

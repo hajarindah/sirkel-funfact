@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Funfact</string>
+
+    <string name="en_label_funfact_activity">Did you know ?</string>
+    <string name="en_default_funfact">Ants stretch when they wake up in the morning</string>
+    <string name="en_button_funfact">Show Another Funfact</string>
+    <string name="en_toggle_en">ID</string>
+    <string name="en_showlist">NEXT</string>
+
+    <string name="id_label_funfact_activity">Taukah kamu ?</string>
+    <string name="id_default_funfact">Semut membentang saat mereka bangun di pagi hari</string>
+    <string name="id_button_funfact">Tunjukkan funfact lain</string>
+    <string name="id_toggle_en">EN</string>
+    <string name="id_showlist">Selanjutnya</string>
+
+</resources>
